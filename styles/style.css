@@ -23,11 +23,10 @@ body * {
     padding: 13px 33px;
     color: white;
     text-transform: uppercase;
-    font-style: italic;
 }
 
 .header {
-    background-color: black;
+    background-color:#131313;
 }
 
 .header-content {
@@ -90,10 +89,10 @@ body * {
 }
 
 .hero-container {
-    margin: 0;
     width: 550px;
     height: 305px;
     position: relative;
+    left: -310px;
     z-index: 1;
 }
 
@@ -112,6 +111,7 @@ body * {
 }
 
 .description {
+    margin: 19px 0px 42px;
     font-family: 'Nunito Sans';
     width: 400;
     font-size: 22px;
@@ -141,6 +141,7 @@ body * {
 .comleted-projects {
     display: flex;
     background-color: #131313;
+    padding-bottom: 415px;
 }
 
 .full-projects {
@@ -177,12 +178,12 @@ body * {
     display: none;
 }
 
-.propertis {
-    display: grid;
-    grid-template-columns: 200px 200px;
+.propertis-table {
+    border: none;
 }
 
 .subtitle {
+    width: 200px;
     margin: 9px 0px;
     font-family: 'Yeseva One';
     font-weight: 400;
@@ -193,6 +194,7 @@ body * {
 }
 
 .value {
+    padding: 9px 0 34px;
     width: 100px;
     font-family: 'Nunito Sans';
     font-weight: 400;
@@ -201,12 +203,18 @@ body * {
     color: #FFFFFF;
 }
 
+.image-slider {
+    display: inline-flex;
+    width: 205px;
+    justify-content: space-between;
+}
+
 .image-project {
     background-image: url("../images/example_room.jpg");
-    position:relative;
+    position: relative;
     width: 679px;
     height: 481px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .projects-navigaion {
@@ -235,11 +243,25 @@ body * {
     border-bottom: 1px solid #E3B873;
 }
 
+.online-control {
+    display: block;
+}
 
+.title-online-control {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
 
-
-
-
+.icon-camera {
+    display: inline-flex;
+    width: 115px;
+    justify-content: space-between;
+}
 
 
 
@@ -248,11 +270,11 @@ body * {
 
 
 .footer {
-    background-color: black;
+    background-color: #181818;
 }
 
 .footer-content {
-    background-color: black;
+    background-color: #181818;
     display: flex;
     justify-content: space-between;
     height: 83px;
